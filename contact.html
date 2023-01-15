@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Host ING - Contact</title>
+    <link rel="icon" type="image/x-icon" href="/source/media/favicon.ico">
+    <link rel="stylesheet" href="./source/style.css">
+</head>
+<body>
+<!-- Header -->
+<div class="header">
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-items"><a href="index.html"><img class="logo" src="source/media/logo.png" alt=""></a></li>
+            <li class="nav-items nav-options"><a href="index.html">Home page</a></li>
+            <li class="nav-items nav-options"><a href="services.html">Services</a></li>
+            <li class="nav-items nav-options"><a href="advantages.html">Why choose us?</a></li>
+            <li class="nav-items nav-options"><a href="contact.html">Contact</a></li>
+            <li class="nav-items nav-options nav-menu-button"><a href="menu.html">Menu</a></li>
+        </ul>
+    </nav>
+</div>
+<!-- end Header -->
+
+<div class="main-content">
+    <div class="form-container">
+        <form target="_parent" action="success.html">
+            <div class="form-section-title">PERSONAL</div>
+            <div class="form-section">
+                <label>First name<br/><input class="input-textbox" type="text"/><br/>
+                    <label>Last name<br/><input class="input-textbox" type="text"/><br/>
+                    </label>
+                </label>
+            </div>
+
+            <div class="form-section-title">YOUR REQUEST</div>
+            <div class="form-section">
+                <label>Reason<br/>
+                    <select id="cars" class="input-textbox dpdown" name="cars">
+                        <option value="Support">Support</option>
+                        <option value="Business">Business</option>
+                        <option value="Proposals">Proposals</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <br/>
+                    <label>Description<br/><input class="input-textbox" type="text"/>
+                        <br/>
+                    </label>
+                </label>
+            </div>
+
+            <div class="form-section-title">CONTACT</div>
+            <div class="form-section">
+                <br/>
+                <label>E-mail<br/><input class="input-textbox" type="email"/>
+                    <br/>
+                    <label>Phone<br/><input class="input-textbox" type="tel"/>
+                        <br>
+                        Attach file
+                        <br>
+                    </label>
+                </label>
+                <div class="button-wrap">
+                    <label class="button-1" for="upload">Upload File</label><br/>
+                    <input id="upload" type="file"/>
+                </div>
+            </div>
+
+            <div class="form-section-title">PERSONAL DATA AGREEMENT</div>
+            <div class="form-section">
+                <br/>
+                <div class="agreement">
+                    By clicking the checkbox „I agree“ you agree to data collection, <br>
+                    storing and processing for the purpose of contacting you. You<br>
+                    also have the possibility to revoke your approval at any time<br>
+                    later on.<br>
+                    <br>
+                </div>
+                <label class="agreement"><input type="checkbox" id="form-checkbox"/> I agree
+                    <br/>
+                    <br/>
+                </label>
+                    <a href="success.html"><button class="btn btn-submit">Submit</button></a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <div class="footer-left">
+        <a href="index.html"><img class="logo-footer" src="source/media/logo.png" alt=""></a>
+        <h2>Cloud VPS and Bare Metal Servers for Less</h2>
+        <h6>Prices shown do not include the statutory taxes unless indicated otherwise.</h6>
+    </div>
+    <div class="footer-right">
+        <h3>SC Host ING SA</h3><br>
+        Bulevardul Vasile Pârvan 4<br>
+        Timișoara, 300223<br>
+        0763000000<br>
+        support@hosting.ro<br>
+    </div>
+</div>
+<!-- end Header -->
+</body>
+</html>
